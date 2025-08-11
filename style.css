@@ -1,0 +1,30 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1497493292307-31c376b6e479?auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+html, body, [class*="css"] {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #222;
+}
+
+.main > div {
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+}
+
+h1, h2, h3 {
+    color: #114488;
+}
+
+button {
+    background-color: #114488 !important;
+    color: white !important;
+    border-radius: 8px !important;
+}
+
